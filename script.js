@@ -2,7 +2,7 @@ let count = document.getElementById('counter');
 let incrementButton = document.getElementById('incrementBtn');
 
 incrementButton.addEventListener('click', () => {
-    let currentCount = parseInt(counter.textContent);
+    let currentCount = parseInt(count.textContent);
     alert(`Current value: ${currentCount}`);
-    counter.textContent = currentCount + 1;
+    count.textContent = currentCount + 1;
  });
